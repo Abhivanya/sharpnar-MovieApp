@@ -27,3 +27,41 @@ button:active {
   background-color: #460897;
   border-color: #460897;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+form input {
+  margin: 0 auto;
+  width: 99%;
+  border-radius: 10px;
+  height: 30px;
+  border: 1px solid gray;
+  font-size: 16px;
+  color: gray;
+}
+
+form textarea {
+  font-size: 16px;
+  color: gray;
+  margin: 0 auto;
+  width: 99%;
+  border-radius: 10px;
+  height: 90px;
+  border: 1px solid gray;
+}
+
+form button {
+  align-self: center;
+  margin: 10px 0;
+}
