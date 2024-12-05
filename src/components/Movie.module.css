@@ -6,7 +6,10 @@
   border-radius: 12px;
   text-align: center;
   color: white;
+  position: relative;
 }
+
+
 
 .movie h2 {
   font-size: 2rem;
@@ -17,4 +20,24 @@
   color: #eccf77;
   margin: 0;
   font-size: 1rem;
+}
+
+.cancelBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  padding: 2px 8px;
+  font-weight: 700;
+  border-radius: 50%;
+  background-color: red;
+  cursor: pointer;
+}
+
+.cancelBtn:hover {
+  background-color: maroon;
+}
+
+.cancelBtn:active {
+  background-color: rgb(108, 75, 75);
 }
